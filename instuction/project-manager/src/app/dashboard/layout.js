@@ -1,11 +1,20 @@
-import React from 'react'
+import DashboardMenu from "@/components/dashboard-menu";
+import React from "react";
+import { Container } from "react-bootstrap";
 
-const Layout = ({children}) => {
-  return (
-    <div style={{backgroundColor:"green"}}>
-      {children}
-    </div>
-  )
-}
+export const metadata = {
+	title: {
+		absolute: "Dashboard",
+	},
+};
 
-export default Layout
+const Layout = ({ children }) => {
+	return (
+		<>
+			<DashboardMenu />
+			<Container className="flex-grow-1">{children}</Container>
+		</>
+	);
+};
+
+export default Layout;
