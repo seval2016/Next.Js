@@ -1,9 +1,0 @@
-Uygulama içindeki sayfalar arasındaki geçiş işlemine Routing denir. Klasik React uygulamalarında bu iş için 
-3th party "react-router-dom" kütüphanesi kullanılıyordu. Next.js ise bu iş için built-in "file-system routing" 
-yapısıını kullanır. App klasorunde olması gerekli başka yerde çalışmaz.
-App klasörü içeriisndeki oluşturulan herbir klasor bir route (yönlendirme) segmentini temsil eder.
-
-App içerisinde yazılan sayfaları biribiri içerisinde import yapılmasına gerek yok fakat ayrı bir component yazıldıysa onu 
-app içerisinde import etmemiz gerekli
-
- 
